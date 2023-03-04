@@ -63,7 +63,7 @@ const projects = [
     'Itemssphere.ge',
     'veyvey.gelashvili.info',
     'brokerapp.gelashvili.info',
-    'hips.gelashvili.info',
+    'shop.gelashvili.info',
 ]
 
 const otherProjects = [
