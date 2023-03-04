@@ -2,22 +2,26 @@ const contact = [
     {
         id: 3493,
         icon: 'W',
-        text: 'GELASHVILI.INFO'
+        text: 'GELASHVILI.INFO',
+        link: 'http://gelashvili.info/'
     },
     {
         id: 3433,
         icon: '<i class="fa-sharp fa-solid fa-envelope"></i>',
-        text: 'Datoogelashvili@gmail.com'
+        text: 'Datoogelashvili@gmail.com',
+        link: 'mail:datoogelashvili@gmail.com'
     },
     {
         id: 3432,
         icon: '<i class="fa-sharp fa-brands fa-linkedin-in"></i>',
-        text: 'https://www.linkedin.com/in/davit-gelashvili/'
+        text: 'linkedin.com/in/davit-gelashvili/',
+        link: 'https://www.linkedin.com/in/davit-gelashvili/'
     },
     {
         id: 6577,
         icon: '<i class="fa-sharp fa-solid fa-phone"></i>',
-        text: '(+995) 591 111 996'
+        text: '(+995) 591 111 996',
+        link: 'tel:995591111996'
     },
     {
         id: 5786,
@@ -32,7 +36,8 @@ const contact = [
     {
         id: 659845,
         icon: '<i class="fa-sharp fa-brands fa-github"></i>',
-        text: 'https://github.com/davitgelashvili'
+        text: 'github.com/davitgelashvili',
+        link: 'https://github.com/davitgelashvili'
     }
 ]
 
