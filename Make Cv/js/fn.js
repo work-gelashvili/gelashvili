@@ -2,26 +2,22 @@ const contact = [
     {
         id: 3493,
         icon: 'W',
-        text: 'GELASHVILI.INFO',
-        link: 'http://gelashvili.info/'
+        text: 'GELASHVILI.INFO'
     },
     {
         id: 3433,
         icon: '<i class="fa-sharp fa-solid fa-envelope"></i>',
-        text: 'Datoogelashvili@gmail.com',
-        link: 'mail:datoogelashvili@gmail.com'
+        text: 'Datoogelashvili@gmail.com'
     },
     {
         id: 3432,
         icon: '<i class="fa-sharp fa-brands fa-linkedin-in"></i>',
-        text: 'linkedin.com/in/davit-gelashvili/',
-        link: 'https://www.linkedin.com/in/davit-gelashvili/'
+        text: 'https://www.linkedin.com/in/davit-gelashvili/'
     },
     {
         id: 6577,
         icon: '<i class="fa-sharp fa-solid fa-phone"></i>',
-        text: '(+995) 591 111 996',
-        link: 'tel:995591111996'
+        text: '(+995) 591 111 996'
     },
     {
         id: 5786,
@@ -36,8 +32,7 @@ const contact = [
     {
         id: 659845,
         icon: '<i class="fa-sharp fa-brands fa-github"></i>',
-        text: 'github.com/davitgelashvili',
-        link: 'https://github.com/davitgelashvili'
+        text: 'https://github.com/davitgelashvili'
     }
 ]
 
@@ -135,9 +130,7 @@ contact.map( item => {
             <div class="left__item--icon">
             ${item.icon}
             </div>
-            <p class="left__item--text">
-                <a ${item.link && `href=${item.link} `} target="_blank" a>${item.text}</a>
-            </p>
+            <p class="left__item--text">${item.text}</p>
         </li>
     `)
 })
@@ -164,11 +157,7 @@ skills.map( item => {
 projects.map( item => {
     $('.js-projects').append(`
         <li class="tags__item--out">
-            <div class="tags__item">
-                <a ${item && `href=http://${item} `} target="_blank" a>
-                    ${item}
-                </a>
-            </div>
+            <div class="tags__item">${item}</div>
         </li>
     `)
 })

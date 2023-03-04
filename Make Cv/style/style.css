@@ -87,10 +87,6 @@ body {
   font-size: 1.6em;
   font-weight: 700;
 }
-.left__item--text a {
-  text-decoration: none;
-  color: #000;
-}
 .left__item:nth-of-type(3) .left__item--text {
   font-size: 1.4em;
 }
@@ -158,10 +154,6 @@ body {
 .tags__item--out {
   padding: 6px;
   list-style: none;
-}
-.tags__item a {
-  text-decoration: none;
-  color: #000;
 }
 
 .company {
