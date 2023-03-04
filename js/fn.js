@@ -1,5 +1,10 @@
 const contact = [
     {
+        id: 3493,
+        icon: 'W',
+        text: 'GELASHVILI.INFO'
+    },
+    {
         id: 3433,
         icon: '<i class="fa-sharp fa-solid fa-envelope"></i>',
         text: 'Datoogelashvili@gmail.com'
@@ -51,6 +56,9 @@ const projects = [
     'Ducskvegas.com',
     'Lawport.ge',
     'Itemssphere.ge',
+    'veyvey.gelashvili.info',
+    'brokerapp.gelashvili.info',
+    'hips.gelashvili.info',
 ]
 
 const otherProjects = [
@@ -60,8 +68,6 @@ const otherProjects = [
     'https://etscars.com/english/home',
     'https://sangu.edu.ge/geo/home',
     'https://geoukravit.ge/',
-    '',
-    '',
 ]
 
 const skills = [
@@ -71,7 +77,7 @@ const skills = [
     'REACT JS',
     'SCSS',
     'BEM',
-    'OOCSS',
+    // 'OOCSS',
     'BOOTSTRAP',
     'JQUERY',
     'GIT',

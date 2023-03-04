@@ -24,14 +24,22 @@ body {
     margin: auto;
 }
 
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 18px;
+    background-color: #fff;
+    z-index: 2;
+    display: flex;
+}
+
 .left {
     width: 100%;
-    height: 150vh;
-    // max-width: 700px;
+    height: 1400px;
     max-width: 440px;
     position: relative;
     display: block;
-    padding-top: 120px;
+    padding-top: 80px;
 
     &__bg {
         width: 100vw;
@@ -72,6 +80,10 @@ body {
             align-items: center;
             justify-content: center;
             background-color: #242b33;
+            color: #e2e2e2;
+            font-size: 1.5em;
+            font-weight: 700;
+
 
             i {
                 color: #e2e2e2;
@@ -85,7 +97,7 @@ body {
             font-weight: 700;
         }
 
-        &:nth-of-type(2){
+        &:nth-of-type(3){
             .left__item--text {
                 font-size: 1.4em;
             }
@@ -128,7 +140,7 @@ body {
 }
 
 .right {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-left: 60px;
     display: block;
 }
