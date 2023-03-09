@@ -6,16 +6,23 @@ const contact = [
         link: 'http://gelashvili.info/'
     },
     {
-        id: 3433,
-        icon: '<i class="fa-sharp fa-solid fa-envelope"></i>',
-        text: 'Datoogelashvili@gmail.com',
-        link: 'mail:datoogelashvili@gmail.com'
-    },
-    {
         id: 3432,
         icon: '<i class="fa-sharp fa-brands fa-linkedin-in"></i>',
         text: 'linkedin.com/in/davit-gelashvili/',
         link: 'https://www.linkedin.com/in/davit-gelashvili/'
+    },
+    ,
+    {
+        id: 659845,
+        icon: '<i class="fa-sharp fa-brands fa-github"></i>',
+        text: 'github.com/davitgelashvili',
+        link: 'https://github.com/davitgelashvili'
+    },
+    {
+        id: 3433,
+        icon: '<i class="fa-sharp fa-solid fa-envelope"></i>',
+        text: 'Datoogelashvili@gmail.com',
+        link: 'mail:datoogelashvili@gmail.com'
     },
     {
         id: 6577,
@@ -32,12 +39,6 @@ const contact = [
         id: 9754,
         icon: '<i class="fa-sharp fa-solid fa-calendar-days"></i>',
         text: '12.09.1996'
-    },
-    {
-        id: 659845,
-        icon: '<i class="fa-sharp fa-brands fa-github"></i>',
-        text: 'github.com/davitgelashvili',
-        link: 'https://github.com/davitgelashvili'
     }
 ]
 
@@ -98,7 +99,7 @@ const experience = [
     },
     {
         img: './logos/proway.png',
-        color: '#ececec',
+        color: '#fff',
         title: 'PROWAY',
         job: 'Front End Developer',
         date: '2021'
