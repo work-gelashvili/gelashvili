@@ -55,27 +55,6 @@ const lang = [
     }
 ]
 
-const projects = [
-    'Crocobet.com',
-    'Onoff.ge',
-    'Tenders.ge',
-    'Ducskvegas.com',
-    'Lawport.ge',
-    'Itemssphere.ge',
-    'veyvey.gelashvili.info',
-    'brokerapp.gelashvili.info',
-    'shop.gelashvili.info',
-]
-
-const otherProjects = [
-    'https://raizomat.com/',
-    'http://afalona.eu/',
-    'http://automations.ge/',
-    'https://etscars.com/english/home',
-    'https://sangu.edu.ge/geo/home',
-    'https://geoukravit.ge/',
-]
-
 const skills = [
     'HTML',
     'CSS',
@@ -93,33 +72,65 @@ const experience = [
     {
         img: './logos/ducks.jpeg',
         color: '#021715',
-        title: 'DUCKSVEGAS',
-        job: 'DUCKSVEGAS.COM - React developer',
+        name: 'DUCKSVEGAS.COM',
+        title: 'Online Crypto Casino',
+        job: 'DUCKSVEGAS.COM - My first project where I worked on React.',
         date: '2022'
     },
     {
         img: './logos/proway.png',
         color: '#fff',
-        title: 'PROWAY',
-        job: 'Front End Developer',
+        name: 'PROWAY.GE',
+        title: 'Software Company',
+        job: `
+            I built two very interesting projects in the company:  
+            <br/>
+            <p><span class="tags__item--name">LAWPORT.GE</span> - An online platform for lawyers that I built from start to finish, where I used scss, bem, javascript, jquery</p>
+            <br/>
+            <p><span class="tags__item--name">BROKERAPP.GELASHVILI.INFO</span> - Insurance packages platform which is built from start to finish by me. I used scss (function), bem, javascript, jquery</p>
+        `,
         date: '2021'
     },
     {
         img: './logos/crocobet.svg',
         color: '#242b33',
-        title: 'CROCOBET',
-        job: 'CROCOBET.COM - Front End Developer',
+        name: 'CROCOBET.COM',
+        title: 'Online Casino',
+        job: `
+            At the company, I did the weekly stock pages and processed the data from API into Javascript
+            <br/>
+            Also, I worked on mobile bet ticket in Angular
+        `,
         date: '2020'
     },
     {
         img: './logos/wandio.svg',
         color: '#121b28',
-        title: 'WANDIO',
-        job: 'ONOFF.GE - Front End Developer',
+        name: 'WANDIO.COM',
+        title: 'Software Company',
+        job: `<span class="tags__item--name">ONOFF.GE</span> - One of the big online stores I worked`,
         date: '2019'
     }
 ]
 
+const projects = [
+    {
+        name: 'Tenders.ge',
+        desc: 'Tender announcement platform, which is built from start to finish by me, and which was order. I used javascript, jquery, scss (function)'
+    },
+    {
+        name: 'veyvey.gelashvili.info',
+        desc: 'A booking platform similar to Airbnb is built from start to finish by me and was ordered by Mywebsites.com. I used scss (function), javascript, jquery, bem method'
+    },
+    // {
+    //     name: 'brokerapp.gelashvili.info',
+    //     desc: 'სადაზღვეო პაკეტების პლატფორმა, პროექტი სრულად ჩემი აწყობილია კომპანია proway-ში. გამოვიყენე scss (function), bem, javascript, jquery'
+    // },
+    {
+        name: 'shop.gelashvili.info',
+        desc: 'I made an online store platform  from start to finish that was ordered by Itemssphere. I used scss, bem, javascript, jquery (mobile)'
+    }
+]
 
 const education = [
     {
@@ -164,13 +175,15 @@ skills.map( item => {
 
 projects.map( item => {
     $('.js-projects').append(`
-        <li class="tags__item--out">
-            <div class="tags__item">
-                <a ${item && `href=http://${item} `} target="_blank" a>
-                    ${item}
-                </a>
-            </div>
-        </li>
+    <div class="tags__item project">
+        <span class="tags__item--name">
+        ${item.name}
+        </span>
+        -
+        <span class="tags__item--desc">
+        ${item.desc}
+        </span>
+    </div>
     `)
 })
 
@@ -181,10 +194,20 @@ experience.map( item => {
                 <img src="${item.img}" class="company__item--img" alt="">
             </figure>
             <div class="company__item--text">
-                <h1 class="company__item--title">${item.title}</h1>
+                <div class="company__item--title">
+                    <div>
+                        <span>
+                            ${item.name}    
+                        </span>
+                        -
+                        <span>
+                            ${item.title}    
+                        </span>
+                    </div>
+                    <p class="company__item--date">${item.date}</p>
+                </div>
                     <div class="company__item--footer">
-                        <p class="company__item--position">${item.job}</p>
-                        <p class="company__item--date">${item.date}</p>
+                        <div class="company__item--position">${item.job}</div>
                     </div>
             </div>
         </li>
