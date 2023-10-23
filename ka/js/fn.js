@@ -33,7 +33,7 @@ const contact = [
     {
         id: 5786,
         icon: '<i class="fa-sharp fa-solid fa-location-dot"></i>',
-        text: 'Tbilisi, Georgia'
+        text: 'თბილისი, საქართველო'
     },
     {
         id: 9754,
@@ -46,12 +46,12 @@ const lang = [
     {
         id: 986,
         icon: '<i class="fa-solid fa-flag"></i>',
-        text: 'Georgian'
+        text: 'ქართული'
     },
     {
         id: 436,
         icon: '<i class="fa-solid fa-flag"></i>',
-        text: 'English'
+        text: 'ინგლისური'
     }
 ]
 
@@ -75,21 +75,21 @@ const experience = [
         img: './logos/ducks.jpeg',
         color: '#021715',
         name: 'DUCKSVEGAS.COM',
-        title: 'Online Crypto Casino',
-        job: 'DUCKSVEGAS.COM - My first project where I worked on React.',
+        title: 'ონლაინ კრიპტო კაზინო',
+        job: 'DUCKSVEGAS.COM - ჩემი პირველი პროექტი რეაქტის გამოყენებით.',
         date: '2022'
     },
     {
         img: './logos/proway.png',
         color: '#fff',
         name: 'PROWAY.GE',
-        title: 'Software Company',
+        title: 'დეველოპერული კომპანია',
         job: `
-            I built two very interesting projects in the company:  
+            მარტო ვმუშაობდი ორ ძალიან საინტერესო პროექტზე:  
             <br/>
-            <p><span class="tags__item--name">LAWPORT.GE</span> - An online platform for lawyers that I built from start to finish, where I used scss, bem, javascript, jquery</p>
+            <p><span class="tags__item--name">LAWPORT.GE</span> - ადვოკატების ონლაინ პლატფორმა, სადაც გამოვიყენე scss, bem, javascript, jquery</p>
             <br/>
-            <p><span class="tags__item--name">BROKERAPP.GE</span> - Insurance packages platform which is built from start to finish by me. I used scss (function), bem, javascript, jquery</p>
+            <p><span class="tags__item--name">BROKERAPP.GE</span> - სადაზღვეო კომპანიების პლატფორმა, სადაც გამოვიყენე scss (function), bem, javascript, jquery</p>
         `,
         date: '2021'
     },
@@ -97,11 +97,11 @@ const experience = [
         img: './logos/crocobet.svg',
         color: '#242b33',
         name: 'CROCOBET.COM',
-        title: 'Online Casino',
+        title: 'ონლაინ კაზინო',
         job: `
-            At the company, I did the weekly stock pages and processed the data from API into Javascript
+            ვმუშაობდი ყოველკვირეულ სააქციო გვერდებზე და ვამუსვებდი API-დან წამორებულ ინფორამციას  Javascript-ში
             <br/>
-            Also, I worked on mobile bet ticket in Angular
+            ასევე მე გავაკეთ mobile bet ticket რედიზაინი Angular-ში
         `,
         date: '2020'
     },
@@ -109,8 +109,8 @@ const experience = [
         img: './logos/wandio.svg',
         color: '#121b28',
         name: 'WANDIO.COM',
-        title: 'Software Company',
-        job: `<span class="tags__item--name">ONOFF.GE</span> - One of the big online stores I worked`,
+        title: 'დეველოპერული კომპანია',
+        job: `<span class="tags__item--name">ONOFF.GE</span> - ერთ-ერთი ყველაზე დიდი ონლაინ მაღაზიების კატალოგი საქართველოში`,
         date: '2019'
     }
 ]
@@ -118,31 +118,31 @@ const experience = [
 const projects = [
     {
         name: 'TENDERS.GE',
-        desc: 'Tender announcement platform, which is built from start to finish by me, and which was order. I used javascript, jquery, scss (function)'
+        desc: 'ტენდერების გამოცხადების პლატფორმა, რომელზეც ვმუსაობდი მხოლოდ მე და ვიყენებდი javascript, jquery, scss (function)'
     },
     {
         name: 'VEYVEY',
-        desc: '[veyvey.gelashvili.info] -  A booking platform similar to Airbnb is built from start to finish by me and was ordered by Mywebsites.com. I used scss (function), javascript, jquery, bem method'
+        desc: '[veyvey.gelashvili.info] -  Airbnb-ის ანალოგი რომელიც დამიკვეთა Mywebsites.com. ვიყენებდი: scss (function), javascript, jquery, bem method'
     },
     {
         name: 'ONLINE SHOP',
-        desc: '[shop.gelashvili.info] - I made an online store platform  from start to finish that was ordered by Itemssphere. I used scss, bem, javascript, jquery (mobile)'
+        desc: '[shop.gelashvili.info] - ონლაინ მაღაზიის ვებგვერდი. დამკვეთი: Itemssphere. ვიყენებდი scss, bem, javascript, jquery (mobile)'
     },
     {
         name: 'ANTMOTORSG.COM',
-        desc: 'Car import company, which is built from start to finish by me, and which was order. I used React JS'
+        desc: 'ავტომობილების იმპორტიორი კომპანიის ვებსაიტი, გამოვიყენე React JS'
     },
     {
         name: 'GEORGEZU.COM',
-        desc: 'Interaction Designer, which is built from start to finish by me, and which was order. I used scss, bem, javascript, jquery'
+        desc: 'Interaction დიზაინერის პირადი ვებგვერდი კლიენტის პორტფოლიოსტვის. გამოვიყენე scss, bem, javascript, jquery'
     },
 ]
 
 const education = [
     {
         color: '#ceceece',
-        title: 'Georgia Technical University',
-        job: 'Informatics',
+        title: 'საქართველოს ტექნიკური უნივერსიტეტი',
+        job: 'ინფორმატიკა და მართვის სისტემები',
         date: '2015-2019'
     }
 ]
