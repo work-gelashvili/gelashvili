@@ -25,6 +25,12 @@ const contact = [
         link: 'mail:datoogelashvili@gmail.com'
     },
     {
+        id: 546432,
+        icon: '<i class="fa-sharp fa-solid fa-envelope"></i>',
+        text: 'davit@gelashvili.info',
+        link: 'mail:davit@gelashvili.info'
+    },
+    {
         id: 6577,
         icon: '<i class="fa-sharp fa-solid fa-phone"></i>',
         text: '(+995) 591 111 996',
@@ -71,6 +77,19 @@ const skills = [
 ]
 
 const experience = [
+    {
+        img: './logos/ophoss-logo.png',
+        color: '#fff',
+        name: 'OPHOSS.DIGITAL',
+        title: 'Software Company',
+        job: `
+            <p><span class="tags__item--name">MINGO.VERCEL.APP</span> - Online Bus Ticket where I worked on Next.Js
+            <br />
+            <br />
+            <p><span class="tags__item--name">ANTMOTORSG.COM</span> - Car import company, which is built from start to finish by me, and which was order. I used React JS
+            `,
+        date: '2023 - PRESENT'
+    },
     {
         img: './logos/ducks.jpeg',
         color: '#021715',
@@ -129,10 +148,6 @@ const projects = [
         desc: '[shop.gelashvili.info] - I made an online store platform  from start to finish that was ordered by Itemssphere. I used scss, bem, javascript, jquery (mobile)'
     },
     {
-        name: 'ANTMOTORSG.COM',
-        desc: 'Car import company, which is built from start to finish by me, and which was order. I used React JS'
-    },
-    {
         name: 'GEORGEZU.COM',
         desc: 'Interaction Designer, which is built from start to finish by me, and which was order. I used scss, bem, javascript, jquery'
     },
@@ -141,7 +156,7 @@ const projects = [
 const education = [
     {
         color: '#ceceece',
-        title: 'Georgia Technical University',
+        title: 'Georgian Technical University',
         job: 'Informatics',
         date: '2015-2019'
     }
