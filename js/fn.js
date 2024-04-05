@@ -2,8 +2,8 @@ const contact = [
     {
         id: 3493,
         icon: 'W',
-        text: 'GELASHVILI.INFO',
-        link: 'http://gelashvili.info/'
+        text: 'GELASHVILI.ME',
+        link: 'http://gelashvili.me/'
     },
     {
         id: 3432,
@@ -21,14 +21,14 @@ const contact = [
     {
         id: 3433,
         icon: '<i class="fa-sharp fa-solid fa-envelope"></i>',
-        text: 'Datoogelashvili@gmail.com',
+        text: 'datoogelashvili@gmail.com',
         link: 'mail:datoogelashvili@gmail.com'
     },
     {
         id: 546432,
         icon: '<i class="fa-sharp fa-solid fa-envelope"></i>',
-        text: 'davit@gelashvili.info',
-        link: 'mail:davit@gelashvili.info'
+        text: 'davit@gelashvili.me',
+        link: 'mail:davit@gelashvili.me'
     },
     {
         id: 6577,
@@ -80,10 +80,13 @@ const experience = [
     {
         img: './logos/ophoss-logo.png',
         color: '#fff',
-        name: 'OPHOSS.DIGITAL',
-        title: 'Software Company',
+        name: 'Front-End Developer',
+        title: 'OPHOSS.DIGITAL',
         job: `
-            <p><span class="tags__item--name">MINGO.VERCEL.APP</span> - Online Bus Ticket where I worked on Next.Js
+            <p><span class="tags__item--name">MINGO.GELASHVILI.ME</span> - Bus Online Ticket where I worked on Next.Js
+            <br />
+            <br />
+            <p><span class="tags__item--name">TKTSYS.netlify.app</span> - Event Ticket where I worked on React.Js
             <br />
             <br />
             <p><span class="tags__item--name">ANTMOTORSG.COM</span> - Car import company, which is built from start to finish by me, and which was order. I used React JS
@@ -91,18 +94,26 @@ const experience = [
         date: '2023 - PRESENT'
     },
     {
+        img: './logos/slick.jpeg',
+        color: '#000',
+        name: 'Front-End Developer',
+        title: 'Slick.Global',
+        job: ``,
+        date: '2022 - PRESENT'
+    },
+    {
         img: './logos/ducks.jpeg',
         color: '#021715',
-        name: 'DUCKSVEGAS.COM',
-        title: 'Online Crypto Casino',
-        job: 'DUCKSVEGAS.COM - My first project where I worked on React.',
+        name: 'Front-End Developer',
+        title: 'DUCKSVEGAS.COM',
+        job: 'DUCKSVEGAS.COM - Online Crypto Casino, where I worked on React.js.',
         date: '2022'
     },
     {
         img: './logos/proway.png',
         color: '#fff',
-        name: 'PROWAY.GE',
-        title: 'Software Company',
+        name: 'Front-End Developer',
+        title: 'PROWAY.GE',
         job: `
             I built two very interesting projects in the company:  
             <br/>
@@ -110,27 +121,27 @@ const experience = [
             <br/>
             <p><span class="tags__item--name">BROKERAPP.GE</span> - Insurance packages platform which is built from start to finish by me. I used scss (function), bem, javascript, jquery</p>
         `,
-        date: '2021'
+        date: '2021 - 2022'
     },
     {
         img: './logos/crocobet.svg',
         color: '#242b33',
-        name: 'CROCOBET.COM',
-        title: 'Online Casino',
+        name: 'Front-End Developer',
+        title: 'CROCOBET.COM',
         job: `
             At the company, I did the weekly stock pages and processed the data from API into Javascript
             <br/>
             Also, I worked on mobile bet ticket in Angular
         `,
-        date: '2020'
+        date: '2020 - 2021'
     },
     {
         img: './logos/wandio.svg',
         color: '#121b28',
-        name: 'WANDIO.COM',
-        title: 'Software Company',
+        name: 'Front-End Developer',
+        title: 'WANDIO.COM',
         job: `<span class="tags__item--name">ONOFF.GE</span> - One of the big online stores I worked`,
-        date: '2019'
+        date: '2019 - 2020'
     }
 ]
 
@@ -140,17 +151,17 @@ const projects = [
         desc: 'Tender announcement platform, which is built from start to finish by me, and which was order. I used javascript, jquery, scss (function)'
     },
     {
-        name: 'VEYVEY',
-        desc: '[veyvey.gelashvili.info] -  A booking platform similar to Airbnb is built from start to finish by me and was ordered by Mywebsites.com. I used scss (function), javascript, jquery, bem method'
-    },
-    {
-        name: 'ONLINE SHOP',
-        desc: '[shop.gelashvili.info] - I made an online store platform  from start to finish that was ordered by Itemssphere. I used scss, bem, javascript, jquery (mobile)'
-    },
-    {
         name: 'GEORGEZU.COM',
         desc: 'Interaction Designer, which is built from start to finish by me, and which was order. I used scss, bem, javascript, jquery'
     },
+    {
+        name: 'VEYVEY',
+        desc: '[veyvey.gelashvili.me] -  A booking platform similar to Airbnb is built from start to finish by me and was ordered by Mywebsites.com. I used scss (function), javascript, jquery, bem method'
+    },
+    {
+        name: 'ONLINE SHOP',
+        desc: '[online-shop-itemssphere.vercel.app] - I made an online store platform  from start to finish that was ordered by Itemssphere. I used scss, bem, javascript, jquery (mobile)'
+    }
 ]
 
 const education = [
@@ -217,18 +228,15 @@ experience.map( item => {
             <div class="company__item--text">
                 <div class="company__item--title">
                     <div>
-                        <span>
-                            ${item.name}    
-                        </span>
-                        -
-                        <span>
-                            ${item.title}    
-                        </span>
+                        <span class="company__item--name">${item.name} @</span>
+                        <span class="company__item--company">${item.title} </span>
                     </div>
                     <p class="company__item--date">${item.date}</p>
                 </div>
                     <div class="company__item--footer">
-                        <div class="company__item--position">${item.job}</div>
+                        <div class="company__item--position">
+                            ${item.job}
+                        </div>
                     </div>
             </div>
         </li>
