@@ -66,7 +66,9 @@ const skills = [
     'CSS',
     'JAVASCRIPT',
     'REACT JS',
+    'REACT NATIVE',
     'NEXT JS',
+    'NODE JS',
     'TYPESCRIPT',
     'SCSS',
     'BEM',
@@ -89,7 +91,10 @@ const experience = [
             <p><span class="tags__item--name">TKTSYS.netlify.app</span> - Event Ticket where I worked on React.Js
             <br />
             <br />
-            <p><span class="tags__item--name">ANTMOTORSG.COM</span> - Car import company, which is built from start to finish by me, and which was order. I used React JS
+            <p><span class="tags__item--name">VEYVEY</span> [veyvey.gelashvili.me] -  A booking platform similar to Airbnb is built from start to finish by me and was ordered by Mywebsites.com. I used scss (function), javascript, jquery, bem method
+            <br />
+            <br />
+            <p><span class="tags__item--name">ItemSphere</span> [online-shop-itemssphere.vercel.app] - I made an online store platform  from start to finish that was ordered by Itemssphere. I used scss, bem, javascript, jquery (mobile)
             `,
         date: '2023 - PRESENT'
     },
@@ -147,6 +152,10 @@ const experience = [
 
 const projects = [
     {
+        name: 'PILLARPARK.GE',
+        desc: 'Residential district Pillar Park'
+    },
+    {
         name: 'TENDERS.GE',
         desc: 'Tender announcement platform, which is built from start to finish by me, and which was order. I used javascript, jquery, scss (function)'
     },
@@ -155,12 +164,8 @@ const projects = [
         desc: 'Interaction Designer, which is built from start to finish by me, and which was order. I used scss, bem, javascript, jquery'
     },
     {
-        name: 'VEYVEY',
-        desc: '[veyvey.gelashvili.me] -  A booking platform similar to Airbnb is built from start to finish by me and was ordered by Mywebsites.com. I used scss (function), javascript, jquery, bem method'
-    },
-    {
-        name: 'ONLINE SHOP',
-        desc: '[online-shop-itemssphere.vercel.app] - I made an online store platform  from start to finish that was ordered by Itemssphere. I used scss, bem, javascript, jquery (mobile)'
+        name: 'ANTMOTORSG.COM',
+        desc: 'Car import company, which is built from start to finish by me, and which was order. I used React JS'
     }
 ]
 

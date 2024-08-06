@@ -29,6 +29,11 @@ body {
   max-width: 1024px;
   margin: auto;
 }
+@media (max-width: 1050px) {
+  .container {
+    flex-direction: column;
+  }
+}
 
 .header {
   position: fixed;
@@ -46,7 +51,15 @@ body {
   min-width: 300px;
   position: relative;
   display: block;
-  padding-top: 80px;
+  padding-top: 60px;
+}
+@media (max-width: 1050px) {
+  .left {
+    max-width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 .left__bg {
   width: 100vw;
@@ -57,6 +70,11 @@ body {
   background-color: #e2e2e2;
   position: absolute;
   z-index: -1;
+}
+@media (max-width: 1050px) {
+  .left__bg {
+    left: 0;
+  }
 }
 .left__list {
   margin-top: 40px;
@@ -128,9 +146,18 @@ body {
 }
 
 .right {
-  padding-top: 80px;
+  padding-top: 60px;
   padding-left: 60px;
   display: block;
+  height: 1400px;
+}
+@media (max-width: 1050px) {
+  .right {
+    padding-left: 0;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 .section-title {
@@ -139,7 +166,7 @@ body {
   font-size: 18px;
   font-family: Bold;
   margin-left: 6px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .tags {
@@ -148,7 +175,7 @@ body {
   flex-wrap: wrap;
   margin-left: -6px;
   margin-right: -6px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .tags__item {
   border-radius: 5px;
@@ -159,7 +186,7 @@ body {
   font-weight: 700;
 }
 .tags__item--out {
-  padding: 6px;
+  padding: 4px;
   list-style: none;
 }
 .tags__item.project {
@@ -191,7 +218,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .company__item {
   width: 100%;
