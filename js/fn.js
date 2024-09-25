@@ -25,12 +25,6 @@ const contact = [
         link: 'mail:datoogelashvili@gmail.com'
     },
     {
-        id: 546432,
-        icon: '<i class="fa-sharp fa-solid fa-envelope"></i>',
-        text: 'davit@gelashvili.me',
-        link: 'mail:davit@gelashvili.me'
-    },
-    {
         id: 6577,
         icon: '<i class="fa-sharp fa-solid fa-phone"></i>',
         text: '(+995) 591 111 996',
@@ -66,16 +60,16 @@ const skills = [
     'CSS',
     'JAVASCRIPT',
     'REACT JS',
-    'REACT NATIVE',
-    'NEXT JS',
-    'NODE JS',
+    'React Router',
+    'Redux',
     'TYPESCRIPT',
-    'SCSS',
-    'BEM',
+    'SASS',
     'OOCSS',
+    'BEM',
     'BOOTSTRAP',
     'JQUERY',
     'GIT',
+    'Little experience: REACT NATIVE, NEXT JS and NODE JS',
 ]
 
 const experience = [
@@ -85,16 +79,10 @@ const experience = [
         name: 'Front-End Developer',
         title: 'OPHOSS.DIGITAL',
         job: `
-            <p><span class="tags__item--name">MINGO.GELASHVILI.ME</span> - Bus Online Ticket where I worked on Next.Js
-            <br />
-            <br />
-            <p><span class="tags__item--name">TKTSYS.netlify.app</span> - Event Ticket where I worked on React.Js
-            <br />
-            <br />
-            <p><span class="tags__item--name">VEYVEY</span> [veyvey.gelashvili.me] -  A booking platform similar to Airbnb is built from start to finish by me and was ordered by Mywebsites.com. I used scss (function), javascript, jquery, bem method
-            <br />
-            <br />
-            <p><span class="tags__item--name">ItemSphere</span> [online-shop-itemssphere.vercel.app] - I made an online store platform  from start to finish that was ordered by Itemssphere. I used scss, bem, javascript, jquery (mobile)
+            <p><span class="tags__item--name">MINGO.GELASHVILI.ME</span> - Bus online ticket. used: Next.Js</p>
+            <p><span class="tags__item--name">TKTSYS.netlify.app</span> - Event online ticket used: React.Js</p>
+            <p><span class="tags__item--name">VEYVEY</span> [veyvey.gelashvili.me] - booking platform similar to Airbnb. used: html, scss, javascript.</p>
+            <p><span class="tags__item--name">ItemSphere</span> [online-shop-itemssphere.vercel.app] - Online store platform. used: html, scss, javascript.</p>
             `,
         date: '2023 - PRESENT'
     },
@@ -111,7 +99,7 @@ const experience = [
         color: '#021715',
         name: 'Front-End Developer',
         title: 'DUCKSVEGAS.COM',
-        job: 'DUCKSVEGAS.COM - Online Crypto Casino, where I worked on React.js.',
+        job: '<p><span class="tags__item--name">DUCKSVEGAS.COM</span> - Online Crypto Casino, used: React.js',
         date: '2022'
     },
     {
@@ -120,11 +108,9 @@ const experience = [
         name: 'Front-End Developer',
         title: 'PROWAY.GE',
         job: `
-            I built two very interesting projects in the company:  
-            <br/>
-            <p><span class="tags__item--name">LAWPORT.GE</span> - An online platform for lawyers that I built from start to finish, where I used scss, bem, javascript, jquery</p>
-            <br/>
-            <p><span class="tags__item--name">BROKERAPP.GE</span> - Insurance packages platform which is built from start to finish by me. I used scss (function), bem, javascript, jquery</p>
+            <p>I built two very interesting projects in the company: </p>
+            <p><span class="tags__item--name">LAWPORT.GE</span> - Online platform for lawyers. used: html, scss, javascript</p>
+            <p><span class="tags__item--name">BROKERAPP.GE</span> - Insurance packages platform. used: html, scss, javascript</p>
         `,
         date: '2021 - 2022'
     },
@@ -145,27 +131,31 @@ const experience = [
         color: '#121b28',
         name: 'Front-End Developer',
         title: 'WANDIO.COM',
-        job: `<span class="tags__item--name">ONOFF.GE</span> - One of the big online stores I worked`,
+        job: `
+            <p>
+                <span class="tags__item--name">ONOFF.GE</span> - One of the big online stores. used: html, css, javascript
+            </p>
+            `,
         date: '2019 - 2020'
     }
 ]
 
 const projects = [
     {
+        name: 'ANTMOTORSG.COM',
+        desc: 'Cars import company. used: React JS'
+    },
+    {
         name: 'PILLARPARK.GE',
-        desc: 'Residential district Pillar Park'
+        desc: 'Residential district Pillar Park. used: html, scss, javascript'
     },
     {
         name: 'TENDERS.GE',
-        desc: 'Tender announcement platform, which is built from start to finish by me, and which was order. I used javascript, jquery, scss (function)'
+        desc: 'Electronic procurement system. used: html, scss, javascript'
     },
     {
         name: 'GEORGEZU.COM',
-        desc: 'Interaction Designer, which is built from start to finish by me, and which was order. I used scss, bem, javascript, jquery'
-    },
-    {
-        name: 'ANTMOTORSG.COM',
-        desc: 'Car import company, which is built from start to finish by me, and which was order. I used React JS'
+        desc: 'Interaction Designer. used: html, scss, javascript'
     }
 ]
 
