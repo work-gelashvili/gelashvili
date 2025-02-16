@@ -59,7 +59,6 @@ const skills = [
     'HTML',
     'CSS',
     'JAVASCRIPT',
-    'Angular',
     'REACT JS',
     'React Router',
     'Redux',
@@ -70,7 +69,7 @@ const skills = [
     'BOOTSTRAP',
     'JQUERY',
     'GIT',
-    'Little experience: REACT NATIVE, NEXT JS and NODE JS',
+    'Little experience: REACT NATIVE, NEXT JS, NODE JS and ANGULAR',
 ]
 
 const experience = [
@@ -80,11 +79,12 @@ const experience = [
         name: 'Front-End Developer',
         title: 'OPHOSS.DIGITAL',
         job: `
-            <p><span class="tags__item--name">MINGO.GELASHVILI.ME</span> - Bus online ticket. used: Next.Js</p>
-            <p><span class="tags__item--name">TKTSYS.netlify.app</span> - Event online ticket used: React.Js</p>
-            <p><span class="tags__item--name">VEYVEY</span> [veyvey.gelashvili.me] - booking platform similar to Airbnb. used: html, scss, javascript.</p>
-            <p><span class="tags__item--name">ItemSphere</span> [online-shop-itemssphere.vercel.app] - Online store platform. used: html, scss, javascript.</p>
-            `,
+        <p><span class="tags__item--name">FLYINSPECTORS.COM</span> - Flight compensation. used: React js, Node js</p>
+        <p><span class="tags__item--name">PILLARPARK.GE</span> - Residential district Pillar Park. used: html, scss, javascript</p>
+        <p><span class="tags__item--name">GEORGEZU.COM</span> - Interaction Designer. used: html, scss, javascript</p>
+        <p><span class="tags__item--name">ANTMOTORSG.COM</span> - Cars import company. used: React js, Node js</p>
+        <p><span class="tags__item--name">TENDERS.GE</span> - Electronic procurement system. used: html, scss, javascript</p>
+        `,
         date: '2023 - PRESENT'
     },
     {
@@ -111,7 +111,7 @@ const experience = [
         job: `
             <p>I built two very interesting projects in the company: </p>
             <p><span class="tags__item--name">LAWPORT.GE</span> - Online platform for lawyers. used: html, scss, javascript</p>
-            <p><span class="tags__item--name">BROKERAPP.GE</span> - Insurance packages platform. used: html, scss, javascript</p>
+            <p><span class="tags__item--name">BROKERAPP.GE</span> [brokerapp.gelashvili.me] - Insurance packages platform. used: html, scss, javascript</p>
         `,
         date: '2021 - 2022'
     },
@@ -143,20 +143,20 @@ const experience = [
 
 const projects = [
     {
-        name: 'ANTMOTORSG.COM',
-        desc: 'Cars import company. used: React JS'
+        name: 'MINGO.GELASHVILI.ME',
+        desc: 'Bus online ticket. used: Next js, Node js'
     },
     {
-        name: 'PILLARPARK.GE',
-        desc: 'Residential district Pillar Park. used: html, scss, javascript'
+        name: 'EVNGE.netlify.app',
+        desc: 'Event online ticket used: React js, Node js'
     },
     {
-        name: 'TENDERS.GE',
-        desc: 'Electronic procurement system. used: html, scss, javascript'
+        name: 'VEY.gelashvili.me',
+        desc: 'Booking platform similar to Airbnb. used: html, scss, javascript'
     },
     {
-        name: 'GEORGEZU.COM',
-        desc: 'Interaction Designer. used: html, scss, javascript'
+        name: 'shop.gelashvili.me',
+        desc: '[ItemsSphere.ge] - Online store platform. used: html, scss, javascript'
     }
 ]
 
