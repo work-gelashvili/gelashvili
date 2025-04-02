@@ -2,8 +2,8 @@ const contact = [
     {
         id: 3493,
         icon: 'W',
-        text: 'GELASHVILI.ME',
-        link: 'http://gelashvili.me/'
+        text: 'GELASHVILI.SITE',
+        link: 'http://gelashvili.site/'
     },
     {
         id: 3432,
@@ -143,7 +143,7 @@ const experience = [
 
 const projects = [
     {
-        name: 'MINGO.GELASHVILI.ME',
+        name: 'MINGO.GELASHVILI.SITE',
         desc: 'Bus online ticket. used: Next js, Node js'
     },
     {
@@ -151,11 +151,11 @@ const projects = [
         desc: 'Event online ticket used: React js, Node js'
     },
     {
-        name: 'VEY.gelashvili.me',
+        name: 'VEY.gelashvili.site',
         desc: 'Booking platform similar to Airbnb. used: html, scss, javascript'
     },
     {
-        name: 'shop.gelashvili.me',
+        name: 'shop.gelashvili.site',
         desc: '[ItemsSphere.ge] - Online store platform. used: html, scss, javascript'
     }
 ]
