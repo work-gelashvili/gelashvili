@@ -55,11 +55,19 @@ const lang = [
     }
 ]
 
+const little = [
+    'REACT NATIVE',
+    'NEXT JS', 
+    'NODE JS', 
+    'ANGULAR',
+    'SVELTE'
+]
+
 const skills = [
     'HTML',
     'CSS',
     'JAVASCRIPT',
-    'REACT JS',
+    'REACT',
     'React Router',
     'Redux',
     'TYPESCRIPT',
@@ -69,7 +77,6 @@ const skills = [
     'BOOTSTRAP',
     'JQUERY',
     'GIT',
-    'Little experience: REACT NATIVE, NEXT JS, NODE JS and ANGULAR',
 ]
 
 const experience = [
@@ -111,7 +118,7 @@ const experience = [
         job: `
             <p>I built two very interesting projects in the company: </p>
             <p><span class="tags__item--name">LAWPORT.GE</span> - Online platform for lawyers. used: html, scss, javascript</p>
-            <p><span class="tags__item--name">BROKERAPP.GE</span> [brokerapp.gelashvili.me] - Insurance packages platform. used: html, scss, javascript</p>
+            <p><span class="tags__item--name">BROKERAPP.GE</span> [brokerapp.gelashvili.site] - Insurance packages platform. used: html, scss, javascript</p>
         `,
         date: '2021 - 2022'
     },
@@ -189,6 +196,14 @@ lang.map( item => {
             ${item.icon}
             </div>
             <p class="left__item--text">${item.text}</p>
+        </li>
+    `)
+})
+
+little.map( item => {
+    $('.js-little').append(`
+        <li class="tags__item--out">
+            <div class="tags__item">${item}</div>
         </li>
     `)
 })
