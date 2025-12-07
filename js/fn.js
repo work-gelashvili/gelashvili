@@ -8,8 +8,8 @@ const contact = [
     {
         id: 3432,
         icon: '<i class="fa-sharp fa-brands fa-linkedin-in"></i>',
-        text: 'linkedin.com/in/davit-gelashvili/',
-        link: 'https://www.linkedin.com/in/davit-gelashvili/'
+        text: 'linkedin.com/in/gelashvilidaviti',
+        link: 'https://www.linkedin.com/in/gelashvilidaviti/'
     },
     ,
     {
@@ -64,27 +64,30 @@ const little = [
 ]
 
 const skills = [
+    'REACT',
+    'JAVASCRIPT',
+    'TYPESCRIPT',
+    'REACT ROUTER',
+    'REDUX / REDUX TOOLKIT',
+    'CONTEXT API',
+    'REST APIs',
     'HTML',
     'CSS',
-    'JAVASCRIPT',
-    'REACT',
-    'React Router',
-    'Redux',
-    'TYPESCRIPT',
-    'SASS',
-    'OOCSS',
+    'SCSS / SASS',
     'BEM',
+    'TAILWIND CSS',
     'BOOTSTRAP',
-    'JQUERY',
+    'MATERIAL UI',
     'GIT',
+    'JQUERY',
 ]
 
 const experience = [
     {
-        img: './logos/ophoss-logo.png',
-        color: '#fff',
+        img: './logos/ophos_logo2.png',
+        color: '#1f1f20',
         name: 'Front-End Developer',
-        title: 'OPHOSS.DIGITAL',
+        title: 'OPHOS.DIGITAL',
         job: `
         <p><span class="tags__item--name">FLYINSPECTORS.COM</span> - Flight compensation. used: React js, Node js</p>
         <p><span class="tags__item--name">PILLARPARK.GE</span> - Residential district Pillar Park. used: html, scss, javascript</p>
@@ -93,14 +96,6 @@ const experience = [
         <p><span class="tags__item--name">TENDERS.GE</span> - Electronic procurement system. used: html, scss, javascript</p>
         `,
         date: '2023 - PRESENT'
-    },
-    {
-        img: './logos/slick.jpeg',
-        color: '#000',
-        name: 'Front-End Developer',
-        title: 'Slick.Global',
-        job: ``,
-        date: '2022 - PRESENT'
     },
     {
         img: './logos/ducks.jpeg',
